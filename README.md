@@ -22,9 +22,12 @@ docker compose up --build
 
 Polls:
 !poll What's your favorite color? | Red | Blue | Green
+![poll_screen](https://github.com/kiloMIA/on_esports_test_task/assets/97970527/6797358c-3b2c-4d92-8324-d2e99a55c83f)
 
 Reminder:
 !remindme 1m Take a break!
+![reminder_screen](https://github.com/kiloMIA/on_esports_test_task/assets/97970527/bbf0259b-cee8-461e-8ffb-25167cb685f0)
 
 Weather:
 !weather New York
+![weather_screen](https://github.com/kiloMIA/on_esports_test_task/assets/97970527/f51e0b82-f9f6-49fd-8c5e-aa6547552024)
