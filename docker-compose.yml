@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  on_esports_bot:
+    build: .
+    environment:
+      TZ: "Asia/Almaty"
+      DISCORD_BOT_TOKEN: ${DISCORD_BOT_TOKEN}
+      WEATHER_API_TOKEN: ${WEATHER_API_TOKEN}
+    env_file:
+      - .env
+    restart: on-failure
