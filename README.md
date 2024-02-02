@@ -9,7 +9,14 @@ Clone this repository
 ```bash
 git clone https://github.com/kiloMIA/on_esports_test_task.git
 ```
+You have to create .env file with such variables 
+```bash
+DISCORD_BOT_TOKEN = 
+WEATHER_API_TOKEN =
+```
+You can get Weather API Token from [here](https://www.weatherapi.com/)
 
+You can configure Discord Bot with this [guide](https://discord.com/developers/docs/getting-started)
 To start this application you can run this command
 ```bash
 make docker-up
@@ -28,7 +35,7 @@ Polls:
 
 Reminder:
 ```bash
-!remindme 1m Take a break!
+!remindme 1m Take a break
 ```
 ![reminder_screen](https://github.com/kiloMIA/on_esports_test_task/assets/97970527/bbf0259b-cee8-461e-8ffb-25167cb685f0)
 
